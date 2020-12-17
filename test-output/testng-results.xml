@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-16T18:52:20Z" name="Default suite" finished-at="2020-12-16T18:52:32Z" duration-ms="12480">
+    <groups>
+    </groups>
+    <test started-at="2020-12-16T18:52:20Z" name="Default test" finished-at="2020-12-16T18:52:32Z" duration-ms="12480">
+      <class name="webscrapping_mongodb.seleniumWebScrapper.WebscrapTest">
+        <test-method is-config="true" signature="connectoMongoBD()[pri:0, instance:webscrapping_mongodb.seleniumWebScrapper.WebscrapTest@4c12331b]" started-at="2020-12-16T18:52:20Z" name="connectoMongoBD" finished-at="2020-12-16T18:52:20Z" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectoMongoBD -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:webscrapping_mongodb.seleniumWebScrapper.WebscrapTest@4c12331b]" started-at="2020-12-16T18:52:20Z" name="setup" finished-at="2020-12-16T18:52:24Z" duration-ms="4420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="webScrapper(java.lang.String)[pri:0, instance:webscrapping_mongodb.seleniumWebScrapper.WebscrapTest@4c12331b]" started-at="2020-12-16T18:52:24Z" name="webScrapper" data-provider="getData" finished-at="2020-12-16T18:52:27Z" duration-ms="2370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.asda.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapper -->
+        <test-method signature="webScrapper(java.lang.String)[pri:0, instance:webscrapping_mongodb.seleniumWebScrapper.WebscrapTest@4c12331b]" started-at="2020-12-16T18:52:27Z" name="webScrapper" data-provider="getData" finished-at="2020-12-16T18:52:32Z" duration-ms="4936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapper -->
+        <test-method is-config="true" signature="close()[pri:0, instance:webscrapping_mongodb.seleniumWebScrapper.WebscrapTest@4c12331b]" started-at="2020-12-16T18:52:32Z" name="close" finished-at="2020-12-16T18:52:32Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- webscrapping_mongodb.seleniumWebScrapper.WebscrapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
